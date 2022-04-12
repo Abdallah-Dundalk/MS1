@@ -6,6 +6,8 @@ nav {
     float: right;
     padding-top: 15px;
     margin: 30px;
+    border: solid white 1px;
+    border-radius: 5px;
 }
 
 nav a {
@@ -24,12 +26,21 @@ nav a {
     width: 100%;
     background-color: slategray;
     text-align: center;
-    margin-top: 75px;
-    text-transform: capitalize;
+    padding: 0px;
+    border: white solid 1px; 
 }
 
 #banner h1 {
     color: white;
-    padding-top: 5px;
     font-size: 60px;
+    margin: 5px 0 0 0;
+}
+
+/* page back-ground */
+
+#background-image {
+    background: url(../images/ufo-1.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 1200px;
 }
