@@ -5,6 +5,7 @@ nav {
     height: 32.5px;
     float: right;
     padding-top: 15px;
+    margin: 30px;
 }
 
 nav a {
@@ -15,9 +16,20 @@ nav a {
     padding-top: 15px;
 }
 
+/* banner */
 
-#test {
+#banner {
+    clear: both;
     height: 75px;
     width: 100%;
-    background-color: green;
+    background-color: slategray;
+    text-align: center;
+    margin-top: 75px;
+    text-transform: capitalize;
+}
+
+#banner h1 {
+    color: white;
+    padding-top: 5px;
+    font-size: 60px;
 }
