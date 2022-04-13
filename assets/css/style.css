@@ -1,5 +1,5 @@
 /* Header */
-nav {
+header nav {
     background-color: slategray;
     width: 33%;
     height: 32.5px;
@@ -10,7 +10,7 @@ nav {
     border-radius: 5px;
 }
 
-nav a {
+header nav a {
     color: white;
     text-decoration: none;
     margin: 30px;
@@ -57,4 +57,52 @@ nav a {
 
 #intro-text h2, p {
     color: white;
+}
+
+/* image links */
+
+#picture-links div {
+    float: left;
+}
+
+#picture-links{
+    margin-left: 7.5%;
+}
+
+#picture-links-left {
+    background-color: white;
+    width: 20%;
+    height: 300px;
+    border: solid black 1px;
+    margin: 150px 1.25% 0 2.5%;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    overflow: hidden;   
+}
+
+#picture-links-right {
+    background-color: rgb(201, 41, 41);
+    width: 20%;
+    height: 300px;
+    border: solid black 1px;
+    
+    margin: 150px 2.5% 0 1.25%;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.picture-links-middle {
+    background-color: blue;
+    width: 20%;
+    height: 300px;
+    border: solid black 1px;
+    
+    margin: 150px 1.25% 0 1.25%;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.link-images {
+    width: 100%;
+    height: auto;
 }
