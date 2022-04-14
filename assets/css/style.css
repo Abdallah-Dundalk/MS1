@@ -72,7 +72,7 @@ header nav a {
 #picture-links-left {
     background-color: white;
     width: 20%;
-    height: 300px;
+    max-height: 300px;
     border: solid black 1px;
     margin: 150px 1.25% 0 2.5%;
     border-radius: 5px;
@@ -83,7 +83,7 @@ header nav a {
 #picture-links-right {
     background-color: rgb(201, 41, 41);
     width: 20%;
-    height: 300px;
+    max-height: 300px;
     border: solid black 1px;
     
     margin: 150px 2.5% 0 1.25%;
@@ -91,10 +91,21 @@ header nav a {
     box-sizing: border-box;
 }
 
-.picture-links-middle {
+#picture-links-center-left {
     background-color: blue;
     width: 20%;
-    height: 300px;
+    max-height: 300px;
+    border: solid black 1px;
+    
+    margin: 150px 1.25% 0 1.25%;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#picture-links-center-right {
+    background-color: blue;
+    width: 20%;
+    max-height: 300px;
     border: solid black 1px;
     
     margin: 150px 1.25% 0 1.25%;
@@ -105,4 +116,8 @@ header nav a {
 .link-images {
     width: 100%;
     height: auto;
+}
+
+#picture-links div a img {
+    width: 100%;
 }
