@@ -7,7 +7,7 @@ header nav {
     padding-top: 15px;
     margin: 30px;
     border: solid white 1px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 header nav a {
@@ -39,11 +39,13 @@ header nav a {
 /* page back-ground */
 
 #background-image {
-    background: url(../images/ufo-1.jpg) no-repeat center center;
+    background: url(../images/space-1.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 1200px;
 }
+
+/* Introduction Paragraph */
 
 #intro-text {
     height: 150px;
@@ -53,13 +55,14 @@ header nav a {
     margin-top: 50px;
     padding: 5px 30px;
     border: solid white 1px;
+    border-radius: 3px;
 }
 
-#intro-text h2, p {
+#intro-text div, h2 p {
     color: white;
 }
 
-/* image links */
+/* picture links */
 
 #picture-links div {
     float: left;
@@ -67,57 +70,99 @@ header nav a {
 
 #picture-links{
     margin-left: 7.5%;
+    line-height: 0;
 }
 
 #picture-links-left {
     background-color: white;
     width: 20%;
-    max-height: 300px;
+    height: 300px;
     border: solid black 1px;
+    background: url(../images/gimbal-2.jpg) no-repeat center center;
     margin: 150px 1.25% 0 2.5%;
-    border-radius: 5px;
+    border-radius: 3px;
     box-sizing: border-box; 
-    overflow: hidden;   
+    background-size: cover;
+    transition: height 0.1s ease-out; 
 }
 
 #picture-links-right {
     background-color: rgb(201, 41, 41);
     width: 20%;
-    max-height: 300px;
+    height: 300px;
     border: solid black 1px;
-    
+    background: url(../images/top-secret-folder_0.png) no-repeat center center;
     margin: 150px 2.5% 0 1.25%;
     border-radius: 5px;
     box-sizing: border-box;
+    background-size: cover;
+    transition: height 0.1s ease-out;
 }
 
 #picture-links-center-left {
     background-color: blue;
     width: 20%;
-    max-height: 300px;
+    height: 300px;
     border: solid black 1px;
-    
+    background: url(../images/bob-lazar.jpg) no-repeat center center;
     margin: 150px 1.25% 0 1.25%;
     border-radius: 5px;
     box-sizing: border-box;
+    background-size: cover;
+    transition: height 0.1s ease-out;
 }
 
 #picture-links-center-right {
     background-color: blue;
     width: 20%;
-    max-height: 300px;
+    height: 300px;
     border: solid black 1px;
-    
+    background: url(../images/planet-581239.jpg) no-repeat center center;
     margin: 150px 1.25% 0 1.25%;
     border-radius: 5px;
     box-sizing: border-box;
+    background-size: cover;
+    transition: height 0.1s ease-out;
+
 }
 
-.link-images {
-    width: 100%;
-    height: auto;
+#picture-links-center-right:hover {
+    height: 307.5px;
 }
 
+#picture-links-center-left:hover {
+    height: 307.5px;
+}
+
+#picture-links-left:hover {
+    height: 307.5px;
+}
+
+#picture-links-right:hover {
+    height: 307.5px;
+}
+
+
+
+.picture-link-text {
+    text-align: center;
+    padding: 150px 0 150px 0;
+    margin: 0;
+    background-color: rgba( 0, 0, 0, .2);
+    color: white;
+    font-size: 28px;
+    transition: all 0.1s ease;
+}
+
+a {
+    text-decoration: none;
+}
+    
 #picture-links div a img {
     width: 100%;
+}
+
+.picture-link-text:hover {
+    background-color: rgba( 0, 0, 0, .7);
+    padding: 153.75px 0 153.75px 0;
 }
