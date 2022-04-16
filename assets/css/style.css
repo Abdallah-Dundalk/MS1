@@ -176,3 +176,31 @@ a {
 .picture-link-text:hover {
     background-color: rgba( 0, 0, 0, .7);
 }
+
+/* footer */
+
+.social-media-links {
+    font-size: 28px;
+    backdrop-filter: blur(50px);
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 150px;
+    padding: 37.5px 0 75px 0;
+}
+
+.social-media-links a {
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #012555;
+    clear: both;
+}
+
+#sign-up-button {
+    height: 30px;
+    border: #012555 solid 1px;
+    border-radius: 25%;
+    margin: 0 auto;
+    
+}
