@@ -87,7 +87,6 @@ header nav a {
 }
 
 #picture-links-left {
-    background-color: white;
     width: 20%;
     height: 300px;
     /* border: solid black 1px; */
@@ -100,7 +99,6 @@ header nav a {
 }
 
 #picture-links-right {
-    background-color: rgb(201, 41, 41);
     width: 20%;
     height: 300px;
     /* border: solid black 1px; */
@@ -113,10 +111,8 @@ header nav a {
 }
 
 #picture-links-center-left {
-    background-color: blue;
     width: 20%;
     height: 300px;
-    /* border: solid black 1px; */
     background: url(../images/bob-lazar.jpg) no-repeat center center;
     margin: 75px 2% 0 2%;
     border-radius: 5px;
@@ -126,7 +122,6 @@ header nav a {
 }
 
 #picture-links-center-right {
-    background-color: blue;
     width: 20%;
     height: 300px;
     /* border: solid black 1px; */
