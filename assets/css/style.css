@@ -69,7 +69,7 @@ header nav a {
 }
 
 #picture-links{
-    margin-left: 7.5%;
+    /* margin-left: 7.5%; */
     line-height: 0;
 }
 
@@ -79,7 +79,7 @@ header nav a {
     height: 300px;
     border: solid black 1px;
     background: url(../images/gimbal-2.jpg) no-repeat center center;
-    margin: 150px 1.25% 0 2.5%;
+    margin: 150px 2% 0 4%;
     border-radius: 3px;
     box-sizing: border-box; 
     background-size: cover;
@@ -92,7 +92,7 @@ header nav a {
     height: 300px;
     border: solid black 1px;
     background: url(../images/top-secret-folder_0.png) no-repeat center center;
-    margin: 150px 2.5% 0 1.25%;
+    margin: 150px 4% 0 2%;
     border-radius: 5px;
     box-sizing: border-box;
     background-size: cover;
@@ -105,7 +105,7 @@ header nav a {
     height: 300px;
     border: solid black 1px;
     background: url(../images/bob-lazar.jpg) no-repeat center center;
-    margin: 150px 1.25% 0 1.25%;
+    margin: 150px 2% 0 2%;
     border-radius: 5px;
     box-sizing: border-box;
     background-size: cover;
@@ -118,7 +118,7 @@ header nav a {
     height: 300px;
     border: solid black 1px;
     background: url(../images/planet-581239.jpg) no-repeat center center;
-    margin: 150px 1.25% 0 1.25%;
+    margin: 150px 2% 0 2%;
     border-radius: 5px;
     box-sizing: border-box;
     background-size: cover;
