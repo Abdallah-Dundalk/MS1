@@ -15,7 +15,7 @@ header nav {
     height: 32.5px;
     float: right;
     padding-top: 15px;
-    margin: 60px;
+    margin: 60px 0 0 0;
     /* border: solid white 1px; */
     /* border-radius: 3px; */
 }
@@ -58,7 +58,7 @@ header nav a {
 /* Introduction Paragraph */
 
 #intro-text {
-    height: 150px;
+    height: 225px;
     width: 33%;
     backdrop-filter: blur(50px);
     margin: 0 auto;
@@ -82,28 +82,28 @@ header nav a {
 #picture-links{
     line-height: 0;
     backdrop-filter: blur(50px);
-    height: 450px;
+    height: 300px;
     width: 100%;
 }
 
 #picture-links-left {
     width: 20%;
-    height: 300px;
+    height: 225px;
     /* border: solid black 1px; */
     background: url(../images/gimbal-2.jpg) no-repeat center center;
-    margin: 75px 2% 0 4%;
+    margin: 37.5px 2% 37.5px 4%;
     border-radius: 3px;
     box-sizing: border-box; 
     background-size: cover;
-    transition: all 0.5s ease-out; 
+    transition: all 0.5s ease-out;
 }
 
 #picture-links-right {
     width: 20%;
-    height: 300px;
+    height: 225px;
     /* border: solid black 1px; */
     background: url(../images/top-secret-folder_0.png) no-repeat center center;
-    margin: 75px 4% 0 2%;
+    margin: 37.5px 2% 37.5px;
     border-radius: 5px;
     box-sizing: border-box;
     background-size: cover;
@@ -112,9 +112,9 @@ header nav a {
 
 #picture-links-center-left {
     width: 20%;
-    height: 300px;
+    height: 225px;
     background: url(../images/bob-lazar.jpg) no-repeat center center;
-    margin: 75px 2% 0 2%;
+    margin: 37.5px 2% 37.5px;
     border-radius: 5px;
     box-sizing: border-box;
     background-size: cover;
@@ -123,10 +123,10 @@ header nav a {
 
 #picture-links-center-right {
     width: 20%;
-    height: 300px;
+    height: 225px;
     /* border: solid black 1px; */
     background: url(../images/planet-581239.jpg) no-repeat center center;
-    margin: 75px 2% 0 2%;
+    margin: 37.5px 2% 37.5px;
     border-radius: 5px;
     box-sizing: border-box;
     background-size: cover;
@@ -156,12 +156,13 @@ header nav a {
 
 .picture-link-text {
     text-align: center;
-    padding: 150px 0 150px 0;
+    padding: 112.5px 0 112.5px 0;
     margin: 0;
     background-color: rgba( 0, 0, 0, .2);
     color: white;
     font-size: 28px;
     transition: all 0.5s ease-out;
+    border-radius: 5px;
 }
 
 a {
