@@ -1,13 +1,13 @@
 /* Header */
 header nav {
-    background-color: slategray;
+    backdrop-filter: blur(50px);
     width: 33%;
     height: 32.5px;
     float: right;
     padding-top: 15px;
-    margin: 30px;
-    border: solid white 1px;
-    border-radius: 3px;
+    margin: 60px;
+    /* border: solid white 1px; */
+    /* border-radius: 3px; */
 }
 
 header nav a {
@@ -24,10 +24,10 @@ header nav a {
     clear: both;
     height: 75px;
     width: 100%;
-    background-color: slategray;
+    /* backdrop-filter: blur(50px); */
     text-align: center;
     padding: 0px;
-    border: white solid 1px; 
+    /* border: white solid 1px;  */
 }
 
 #banner h1 {
@@ -36,10 +36,10 @@ header nav a {
     margin: 5px 0 0 0;
 }
 
-/* page back-ground */
+/* page back-ground image */
 
 #background-image {
-    background: url(../images/space-1.jpg) no-repeat center center;
+    background: url(../images/blue-sky.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 1200px;
@@ -50,9 +50,10 @@ header nav a {
 #intro-text {
     height: 150px;
     width: 33%;
-    background-color: rgba(112, 128, 144, .8);
+    backdrop-filter: blur(50px);
     margin: 0 auto;
     margin-top: 50px;
+    margin-bottom: 75px;
     padding: 5px 30px;
     border: solid white 1px;
     border-radius: 3px;
@@ -69,80 +70,84 @@ header nav a {
 }
 
 #picture-links{
-    /* margin-left: 7.5%; */
     line-height: 0;
+    backdrop-filter: blur(50px);
+    height: 450px;
+    width: 100%;
 }
 
 #picture-links-left {
     background-color: white;
     width: 20%;
     height: 300px;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     background: url(../images/gimbal-2.jpg) no-repeat center center;
-    margin: 150px 2% 0 4%;
+    margin: 75px 2% 0 4%;
     border-radius: 3px;
     box-sizing: border-box; 
     background-size: cover;
-    transition: height 0.1s ease-out; 
+    transition: all 0.5s ease-out; 
 }
 
 #picture-links-right {
     background-color: rgb(201, 41, 41);
     width: 20%;
     height: 300px;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     background: url(../images/top-secret-folder_0.png) no-repeat center center;
-    margin: 150px 4% 0 2%;
+    margin: 75px 4% 0 2%;
     border-radius: 5px;
     box-sizing: border-box;
     background-size: cover;
-    transition: height 0.1s ease-out;
+    transition: all 0.5s ease-out;
 }
 
 #picture-links-center-left {
     background-color: blue;
     width: 20%;
     height: 300px;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     background: url(../images/bob-lazar.jpg) no-repeat center center;
-    margin: 150px 2% 0 2%;
+    margin: 75px 2% 0 2%;
     border-radius: 5px;
     box-sizing: border-box;
     background-size: cover;
-    transition: height 0.1s ease-out;
+    transition: all 0.5s ease-out;
 }
 
 #picture-links-center-right {
     background-color: blue;
     width: 20%;
     height: 300px;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     background: url(../images/planet-581239.jpg) no-repeat center center;
-    margin: 150px 2% 0 2%;
+    margin: 75px 2% 0 2%;
     border-radius: 5px;
     box-sizing: border-box;
     background-size: cover;
-    transition: height 0.1s ease-out;
+    transition: all 0.5s ease-out;
 
 }
 
 #picture-links-center-right:hover {
-    height: 307.5px;
+    
+    transform: scale(1.1);
 }
 
 #picture-links-center-left:hover {
-    height: 307.5px;
+    
+    transform: scale(1.1);
 }
 
 #picture-links-left:hover {
-    height: 307.5px;
+    
+    transform: scale(1.1);
 }
 
 #picture-links-right:hover {
-    height: 307.5px;
+    
+    transform: scale(1.1);
 }
-
-
 
 .picture-link-text {
     text-align: center;
@@ -151,7 +156,7 @@ header nav a {
     background-color: rgba( 0, 0, 0, .2);
     color: white;
     font-size: 28px;
-    transition: all 0.1s ease;
+    transition: all 0.5s ease-out;
 }
 
 a {
@@ -164,5 +169,4 @@ a {
 
 .picture-link-text:hover {
     background-color: rgba( 0, 0, 0, .7);
-    padding: 153.75px 0 153.75px 0;
 }
