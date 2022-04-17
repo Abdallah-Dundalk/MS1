@@ -145,6 +145,7 @@ header nav a:hover {
 #picture-links-center-right:hover {
     
     transform: scale(1.1);
+    
 }
 
 #picture-links-center-left:hover {
@@ -171,6 +172,10 @@ header nav a:hover {
     font-size: 28px;
     transition: all 0.5s ease-out;
     border-radius: 10px;
+}
+
+.picture-link-text:hover {
+    color: rgb(205, 150, 0);;
 }
 
 a {
