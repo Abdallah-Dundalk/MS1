@@ -26,6 +26,12 @@ header nav a {
     margin: 30px;
     text-align: center;
     padding-top: 15px;
+    transition: all 0.6s ease-out;
+}
+
+header nav a:hover {
+    color: rgb(205, 150, 0);
+    text-decoration: underline;
 }
 
 /* banner */
@@ -53,6 +59,7 @@ header nav a {
     background-size: cover;
     width: 100%;
     height: 1200px;
+    position: relative;
 }
 
 /* Introduction Paragraph */
@@ -196,26 +203,35 @@ a {
 
 .social-media-links {
     font-size: 28px;
-    background-color: rgb(230, 224, 224);
+    background-color: white;
     height: 30px;
     width: 100%;
     text-align: center;
-    margin-top: 300px;
-    margin-bottom: 150px;
+    margin-top: 30px;
+    bottom: 0;
     padding: 37.5px 0 75px 0;
+    position: absolute;
 }
 
 .social-media-links a {
-    margin-left: 30px;
-    margin-right: 30px;
-    color: #012555;
+    margin-left: 4.375%;
+    margin-right: 4.375%;
+    color: rgb(112, 112, 112);
     clear: both;
 }
 
 #sign-up-button {
     height: 30px;
-    border: #012555 solid 1px;
-    border-radius: 25%;
-    margin: 0 auto;
-    
+    border: white solid 1px;
+    background-color: rgb(112, 112, 112);
+    border-radius: 10px;
+    margin: 0 auto 30px;
+    clear: both;
+    display: block;
+    width: 7.5%;
+    color: white;
+    font-family: orbitron;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
 }
