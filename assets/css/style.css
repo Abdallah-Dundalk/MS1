@@ -268,16 +268,21 @@ a {
 
 /* media query */
 
-/* for lagre to medium screen 1300px wide and down */
+/* for lagre to medium screen sizes 1300px wide and down */
 @media screen and (max-width: 1300px) {
     #intro-text {
         width: 66.66%;
         height: 187.5px;
     }
+
+    header nav {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 
-/* for lagre to medium screen 950px wide and down */
+/* for small screen sizes 950px wide and down */
 @media screen and (max-width: 950px) {
     #intro-text {
         width: 66.66%;
@@ -286,11 +291,11 @@ a {
     }
 }
 
-/* for lagre to medium screen 520px wide and down */
-@media screen and (max-width: 550px) {
+/* for smaller screen sizes 550px wide and down */
+@media screen and (max-width: 660px) {
     #intro-text {
         width: 100%;
-        height: 337.5px;
+        height: 337.5950px;
         padding: 10px;
         box-sizing: border-box;
         border-radius: 0;
