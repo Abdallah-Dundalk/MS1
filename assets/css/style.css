@@ -209,17 +209,18 @@ a {
 
 /* footer */
 
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    
+}
+
 .social-media-links {
     font-size: 33.5px;
     background-color: white;
-    height: 75px;
-    width: 100%;
     text-align: center;
-    /* bottom: 0;
-    position: absolute; */
-    
-    
-    
 }
 
 .social-media-links div {
@@ -230,37 +231,33 @@ a {
     margin-left: 4.375%;
     margin-right: 4.375%;
     color: rgb(150, 148, 148);
-    clear: both;
     display: inline-block;
-    padding: 18.75px;
+    
     
 }
 
 #sign-up-button {
-    height: 35.5px;
+    height: 35px;
     border: white solid 1px;
     background-color: rgb(150, 148, 148);
     border-radius: 10px;
     margin: 0 auto;
-    clear: both;
     display: block;
     width: 7.5%;
     color: white;
     font-family: orbitron;
     font-size: 14px;
     text-align: center;
-    line-height: 30px;
-    margin-top: 18.75px;
-    margin-bottom: 18.75px;
+    line-height: 35px;
+    
     
 }
 
 #footer-text {
-    float: left;
+    margin: 0 auto;
     font-size: small;
     color: rgb(112, 112, 112);
-    margin-right: -418.906px;
-    bottom: 0;
+    display: block;
     line-height: 70px;
 }
 
@@ -292,26 +289,26 @@ a {
     
     #picture-links-center-right {
         clear: left;
-        margin: 150px 3.33% 0px 6.66%;
+        margin: 37.5px 3.33% 0px 6.66%;
         width: 40%;
         
     }
 
     #picture-links-right {
-        margin: 150px 6.66% 0px 3.33%;
+        margin: 37.5px 6.66% 0px 3.33%;
         width: 40%;
         
     }
 
     #picture-links-center-left {
-        margin: 37.5px 6.66% 37.5px 3.33%;
+        margin: 75px 6.66% 37.5px 3.33%;
         width: 40%;
         
         
     }
 
     #picture-links-left {
-        margin: 37.5px 3.33% 37px 6.66%;
+        margin: 75px 3.33% 37px 6.66%;
         width: 40%;
         
     }
@@ -320,7 +317,7 @@ a {
         height: 900px;
         background-color: lightgrey
     }
-    
+
 }
 
 
@@ -378,7 +375,7 @@ a {
     }
 
     #picture-links-center-left {
-        margin: 0;
+        margin: 37.5px 0px 0px 0px;
         width: 50%;
         border-radius: 0;
         border: solid 1px rgb(112, 112, 112);;
@@ -387,7 +384,7 @@ a {
     }
 
     #picture-links-left {
-        margin:0;
+        margin: 37.5px 0px 0px 0px;
         width: 50%;
         border-radius: 0;
         border: solid 1px rgb(112, 112, 112);;
@@ -432,6 +429,10 @@ a {
 
     .sub-text h3 {
         font-size: 12px;
+    }
+
+    .picture-link-text {
+        font-size: 24px;
     }
 
 }
