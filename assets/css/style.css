@@ -291,12 +291,14 @@ footer {
         clear: left;
         margin: 37.5px 3.33% 0px 6.66%;
         width: 40%;
+        border: solid 1px rgb(112, 112, 112);
         
     }
 
     #picture-links-right {
         margin: 37.5px 6.66% 0px 3.33%;
         width: 40%;
+        border: solid 1px rgb(112, 112, 112);
         
     }
 
@@ -315,7 +317,7 @@ footer {
 
     #picture-links {
         height: 900px;
-        background-color: lightgrey
+        /* background-color: lightgrey */
     }
 
 }
