@@ -497,3 +497,15 @@ footer {
 
     
 }
+
+/* Evidence Page */
+.videos{
+    line-height: 0;
+    backdrop-filter: blur(10px);
+    height: 450px;
+    width: 66%;
+    border: white solid 1px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
