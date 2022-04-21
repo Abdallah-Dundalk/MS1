@@ -12,7 +12,6 @@ p {
 
 H1, H2, H3 {
     font-family: orbitron;
-    color: white;
     line-height: normal;
 }
 
@@ -311,6 +310,34 @@ footer {
     height: 100%;
   }
 
+  /* Insiders page */
+
+  .profile {
+      width: 600px;
+      height: 300px;
+      margin: 0 auto;
+      clear: both;
+      overflow: hidden;
+      border-radius: 10px;
+  }
+
+  .profile-pic {
+      float: left;
+      width: 50%;
+      margin-top: -30px;
+      
+
+  }
+
+  .bio {
+      float: right;
+      background-color: rgb(150, 148, 148);
+      width: 50%;
+      height: 100%;
+      padding-left: 15px;
+      box-sizing: border-box;
+
+  }
 
 /* media query */
 
