@@ -2,6 +2,7 @@
 
 body {
     font-family: montserrat, sans-serif;
+    position: relative;
 }
 
 p {
@@ -59,7 +60,7 @@ header nav a:hover {
     margin: 5px 0 0 0;
 }
 
-/* page back-ground image */
+/* index page back-ground image */
 
 #background-image {
     background: url(../images/blue-sky.jpg) no-repeat center center;
@@ -67,8 +68,20 @@ header nav a:hover {
     width: 100%;
     height: auto;
     position: relative;
+}
+
+/* sign-page background image */
+
+#sign-up-background-image {
+    background: url(../images/sunset.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    position: relative;
     
 }
+
+
 
 /* Introduction Paragraph */
 
@@ -214,6 +227,7 @@ a {
 /* footer */
 
 footer {
+    /* position: absolute; */
     bottom: 0;
     width: 100%;
     clear: both;
@@ -257,6 +271,8 @@ footer {
     /* background-color: red; */
     height: 150px;
     position: relative;
+    clear: both;
+    width: 100;
     
 }
 
