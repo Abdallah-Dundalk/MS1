@@ -6,7 +6,6 @@ body {
 
 p {
     font-family: montserrat, sans-serif;
-    color: white;
     line-height: normal;
 }
 
@@ -312,10 +311,12 @@ footer {
 
   /* Insiders page */
 
+  /* profile div */
+
   .profile {
       width: 600px;
       height: 300px;
-      margin: 0 auto;
+      margin: 75px auto 75px;
       clear: both;
       overflow: hidden;
       border-radius: 10px;
@@ -325,8 +326,6 @@ footer {
       float: left;
       width: 50%;
       margin-top: -30px;
-      
-
   }
 
   .bio {
@@ -335,8 +334,14 @@ footer {
       width: 50%;
       height: 100%;
       padding-left: 15px;
+      padding-right: 15px;
       box-sizing: border-box;
+  }
 
+  .bio h2 {
+      margin-bottom: 0;
+      margin-top: 10px;
+      color: white;
   }
 
 /* media query */
@@ -545,10 +550,38 @@ footer {
     }
 
     .video-container {
-        
         width: 100%;
+    }
+
+    .profile {
+        width: 250px;
+        height: 500px;
+        margin: 75px auto 75px;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    .profile-pic {
+        
+        margin-top: -30px;
+        object-fit: cover;
+        width: 250px;
+        height: 50%;
         
     }
+  
+    .bio {
+        background-color: rgb(150, 148, 148);
+        width: 100%;
+        height: 250px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-size: small;
+    }
+
+
 }
 
 
