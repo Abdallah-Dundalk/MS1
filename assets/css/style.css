@@ -363,33 +363,43 @@ footer {
 
 #sign-up-form-container {
     border: white solid 1px;
-    margin: 450px auto 0;
-    height: 225px;
-    width: 67%;
+    margin: 300px auto 0;
+    height: 375px;
+    width: 50%;
     backdrop-filter: blur(50px);
-    
-
+    clear: both;
 }
 
 input {
-    display: block;
-    margin: 30px;
+    display: inline-block;
+    margin: 30px 30px 15px 30px;
     line-height: 28px;
-    width: 33%;
-    font-size: 28px;
+    width: 40%;
+    font-size: 20px;
+    
+    
  
 }
 
 label {
     float: left;
-    width: 20%;
+    width: 33%;
     color: white;
     font-family: orbitron;
-    font-size: 28px;
-    margin-left: 17%;
-    margin-right: 7.5px;
+    font-size: 31px;
+    margin-left:30px;
+    margin-right: 5%;
+    margin-top: 28px;    
+}
 
+#submit-button {
     
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    display: block;
+    margin: 37.5px auto;
+    clear: both;
 }
 
 
@@ -408,10 +418,11 @@ label {
     }
 
     #sign-up-form-container {
-        margin: 225px auto 0;
+        margin: 75px 37.5px 0 0;
         height: 450px;
-        padding: 15px;
+        padding: 30px;
         width: 33%;
+        float: right;
         
     }
 
@@ -425,9 +436,8 @@ label {
     input {
         margin: 7.5px auto 35px;
         width: 80%;
+        display: block;
     }
-
-    
 }
 
 
@@ -485,7 +495,7 @@ label {
     }
 
     #sign-up-form-container {
-        width: 66%;
+        width: 50%;
         
     }
     
@@ -661,11 +671,15 @@ label {
 
     input {
         font-size: 20px;
+        
     }
 
     #sign-up-form-container {
-        height: 375px;
-        
+        height: 525px;
+        float: none;
+        margin: 75px auto;
+        box-sizing: border-box;
+        width: 80%;
     }
 
 }
