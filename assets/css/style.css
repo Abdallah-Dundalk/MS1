@@ -575,6 +575,7 @@ input:hover {
         border-radius: 0;
         border: solid 1px rgb(112, 112, 112);
         box-sizing: border-box;
+        height: 375px;
     }
 
     #picture-links-right {
@@ -583,6 +584,7 @@ input:hover {
         border-radius: 0;
         border: solid 1px rgb(112, 112, 112);
         box-sizing: border-box;
+        height: 375px;
     }
 
     #picture-links-center-left {
@@ -591,6 +593,7 @@ input:hover {
         border-radius: 0;
         border: solid 1px rgb(112, 112, 112);;
         box-sizing: none;
+        height: 375px;
         
     }
 
@@ -600,6 +603,7 @@ input:hover {
         border-radius: 0;
         border: solid 1px rgb(112, 112, 112);;
         box-sizing: none;
+        height: 375px;
         
     }
 
