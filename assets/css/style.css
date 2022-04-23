@@ -368,6 +368,7 @@ footer {
     width: 50%;
     backdrop-filter: blur(50px);
     clear: both;
+    border-radius: 10px;
 }
 
 input {
@@ -376,9 +377,9 @@ input {
     line-height: 28px;
     width: 40%;
     font-size: 20px;
-    
-    
- 
+    transition: all 0.5s ease-out;
+    background-color: rgba( 0, 0, 0, 0);
+    color: white;
 }
 
 label {
@@ -400,6 +401,26 @@ label {
     display: block;
     margin: 37.5px auto;
     clear: both;
+    font-family: 'orbitron';
+    color: white;
+    background-color: rgba( 0, 0, 0, 0);
+    border: 1px white solid;
+
+}
+
+#submit-button:hover {
+    color: rgb(205, 150, 0);
+    border-color: rgb(205, 150, 0);
+    /* background-color: slategray; */
+    transition: all 0.3s ease-out;
+
+}
+
+input:hover {
+    transition: all 0.3s ease-out;
+    border-color: rgb(205, 150, 0);
+    /* background-color: slategray; */
+
 }
 
 
