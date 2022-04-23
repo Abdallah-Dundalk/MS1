@@ -366,7 +366,7 @@ footer {
     
     margin: 150px auto 0;
     height: 300px;
-    width: 32%;
+    width: 50%;
     backdrop-filter: blur(50px);
     box-sizing: border-box;
 
@@ -375,18 +375,20 @@ footer {
 input {
     display: block;
     margin-left: 15px;
-    margin: 30px auto;
-    line-height: 35px;
-    width: 50%;
+    margin: 30px;
+    line-height: 28px;
+    width: 33%;
+    font-size: 28px;
+ 
 }
 
 label {
     float: left;
-    width: 150px;
-    margin-top: 12px;
+    width: 20%;
     color: white;
     font-family: orbitron;
-    margin-left: 15px;
+    font-size: 28px;
+    margin-left: 17%;
 
     
 }
