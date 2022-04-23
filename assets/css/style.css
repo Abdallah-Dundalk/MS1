@@ -66,19 +66,18 @@ header nav a:hover {
     background: url(../images/blue-sky.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
-    height: auto;
+    height: 600px;
     position: relative;
 }
 
 /* sign-page background image */
 
 #sign-up-background-image {
-    background: url(../images/sunset.jpg) no-repeat center center;
+    background: url(../images/sun-set2.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
-    height: auto;
-    position: relative;
-    
+    height: 750px;
+    position: relative; 
 }
 
 
@@ -90,7 +89,7 @@ header nav a:hover {
     width: 33%;
     backdrop-filter: blur(50px);
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 75px;
     margin-bottom: 75px;
     padding: 5px 30px;
     border: solid white 1px;
@@ -365,9 +364,9 @@ footer {
 #sign-up-form-container {
     border: white solid 1px;
     
-    margin: 0 auto;
+    margin: 150px auto 0;
     height: 300px;
-    width: 33%;
+    width: 32%;
     backdrop-filter: blur(50px);
     box-sizing: border-box;
 
