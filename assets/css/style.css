@@ -311,8 +311,12 @@ footer {
     width: 66%;
     border: white solid 1px;
     box-sizing: border-box;
-    margin: 15px auto 15px;
+    margin: 75px auto 75px;
     text-align: center;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 /* The below code makes embedded youtube videos responsive */
