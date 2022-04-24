@@ -345,6 +345,11 @@ footer {
     height: 100%;
   }
 
+  figcaption {
+    margin-top: 30px;
+    line-height: normal;
+  }
+
   /* Insiders page */
 
   /* profile div */
