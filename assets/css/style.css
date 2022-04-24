@@ -279,6 +279,7 @@ footer {
     position: relative;
     clear: both;
     width: 100;
+    margin: 1px;
 }
 
 #sign-up-button a:hover {
@@ -375,6 +376,7 @@ footer {
       color: white;
   }
 
+
 /* sign-up-page */
 
 #sign-up-form-container {
@@ -439,6 +441,26 @@ input:hover {
 
 }
 
+/* Theories page */
+.theories-articles {
+    line-height: 28px;
+    
+    height: auto;
+    width: 66%;
+    border: white solid 1px;
+    box-sizing: border-box;
+    margin: 75px auto 75px;
+    text-align: center;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    padding-right: 30px;
+    padding-left: 30px;
+    clear: both;
+}
+
+.theories-articles p {
+    text-align: left;
+}
 
 /* media query */
 
