@@ -445,6 +445,11 @@ input:hover {
 
 }
 
+legend {
+    color: white;
+    font-family: orbitron;
+}
+
 /* Theories page */
 .theories-articles {
     line-height: 28px;
