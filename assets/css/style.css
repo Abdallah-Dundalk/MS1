@@ -24,8 +24,6 @@ header nav {
     padding-top: 15px;
     margin: 60px 0 0 0;
     text-align: right;
-    /* border: solid white 1px; */
-    /* border-radius: 3px; */
 }
 
 header nav a {
@@ -48,10 +46,8 @@ header nav a:hover {
     clear: both;
     height: 75px;
     width: 100%;
-    /* backdrop-filter: blur(50px); */
     text-align: center;
     padding: 0px;
-    /* border: white solid 1px;  */
 }
 
 #banner h1 {
@@ -98,8 +94,6 @@ header nav a:hover {
     background-color: rgba( 0, 0, 0, .5);
     display: block;
     clear: both;
-    
-
 }
 
 #intro-text div, h2 p {
@@ -121,7 +115,6 @@ header nav a:hover {
     border-top: white solid 2px;
     background-color: lightgray;
     box-sizing: border-box;
-    
 }
 
 #picture-links-left {
@@ -170,27 +163,21 @@ header nav a:hover {
     background-size: cover;
     transition: all 0.5s ease-out;
     border: gray solid 1px;
-
 }
 
 #picture-links-center-right:hover {
-    
     transform: scale(1.1);
-    
 }
 
 #picture-links-center-left:hover {
-    
     transform: scale(1.1);
 }
 
 #picture-links-left:hover {
-    
     transform: scale(1.1);
 }
 
 #picture-links-right:hover {
-    
     transform: scale(1.1);
 }
 
@@ -203,7 +190,6 @@ header nav a:hover {
     font-size: 28px;
     transition: all 0.5s ease-out;
     border-radius: 10px;
-    
 }
 
 .picture-link-text:hover {
@@ -239,7 +225,6 @@ a {
 /* footer */
 
 footer {
-    /* position: absolute; */
     bottom: 0;
     width: 100%;
     clear: both;
@@ -278,7 +263,6 @@ footer {
 #sign-up-button {
     text-align: center;
     display: block;
-    /* background-color: red; */
     height: 150px;
     position: relative;
     clear: both;
@@ -438,16 +422,12 @@ label {
 #submit-button:hover {
     color: rgb(205, 150, 0);
     border-color: rgb(205, 150, 0);
-    /* background-color: slategray; */
     transition: all 0.3s ease-out;
-
 }
 
 input:hover {
     transition: all 0.3s ease-out;
     border-color: rgb(205, 150, 0);
-    /* background-color: slategray; */
-
 }
 
 legend {
@@ -458,7 +438,6 @@ legend {
 /* Theories page */
 .theories-articles {
     line-height: 28px;
-    
     height: auto;
     width: 66%;
     border: white solid 1px;
@@ -496,7 +475,6 @@ legend {
         padding: 30px;
         width: 33%;
         float: right;
-        
     }
 
     label {
@@ -527,27 +505,22 @@ legend {
         margin: 18.75px 3.33% 75px 6.66%;
         width: 40%;
         border: solid 1px rgb(112, 112, 112);
-        
     }
 
     #picture-links-right {
         margin: 18.75px 6.66% 75px 3.33%;
         width: 40%;
         border: solid 1px rgb(112, 112, 112);
-        
     }
 
     #picture-links-center-left {
         margin: 18.75px 6.66% 18.75px 3.33%;
         width: 40%;
-        
-        
     }
 
     #picture-links-left {
         margin: 18.75px 3.33% 18.75px 6.66%;
         width: 40%;
-        
     }
 
     #picture-links {
@@ -555,25 +528,14 @@ legend {
         padding: 0px 0 30px 0;
     }
 
-        
-    /* footer {
-        margin-top: 375px;
-       
-    } */
-
     #copyright-text {
         font-size: x-small;
-        
-        
     }
 
     #sign-up-form-container {
         width: 50%;
         
     }
-    
-    
-
 }
 
 
@@ -646,7 +608,6 @@ legend {
         border: solid 1px rgb(112, 112, 112);;
         box-sizing: none;
         height: 375px;
-        
     }
 
     #picture-links-left {
@@ -656,13 +617,11 @@ legend {
         border: solid 1px rgb(112, 112, 112);;
         box-sizing: none;
         height: 375px;
-        
     }
 
     
     #picture-links {
         height: 750px;
-        /* background-color: lightgrey; */
     }
 
     #picture-links-left:hover {
@@ -686,7 +645,6 @@ legend {
     }
 
     .sub-text {
-        
         border-radius: 0;
         box-sizing: border-box;
         width: 100%;
@@ -710,7 +668,6 @@ legend {
     #sign-up-button {
         width: 100%;
         clear: both;
-        /* margin-top: 350px; */
     }
 
     .social-media-links {
@@ -730,12 +687,10 @@ legend {
     }
 
     .profile-pic {
-        
         margin-top: -30px;
         object-fit: cover;
         width: 250px;
         height: 50%;
-        
     }
   
     .bio {
@@ -756,7 +711,6 @@ legend {
     input {
         font-size: 20px;
         font-size: 12px;
-        
     }
 
     #sign-up-form-container {
@@ -780,7 +734,5 @@ legend {
     #drop-down-menu {
         display: none;
     }
-
-    
 }
 
