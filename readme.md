@@ -17,7 +17,7 @@ Nav Bar
 
 
 UAP Intel
-The landing page image
+![UAP Intel landing page](./assets/images/blue-sky-optimised.jpg)
 
 The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
 This section introduces the user to UAP Intel with an image of clouds where one might spot a UAP.
@@ -59,6 +59,14 @@ In hte future I woul like to add a comment section that invites users to post th
 Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
+The image links on teh landing page increase in sise and drecrease in brightness and text highlights in yellow to clearly indicate that the link is functional and invites interaction. The images are used to draw the users attention. And the text under each image gives a brief description of what content awaits. The links are of sufficient size to be user freindly and not "fiddly". The navigation bar is sutble but clearly visible and provides a traditional form of navigation.
+
+The Evidence page is simple in appears to work well. the user simply scrolls down to access video content. Likewise the Insiders page is simple in appearance with content arranged vertically, very easy to navigate and providing users with bite sized snioppets of information.
+
+The theroioes page provides an article that quickly introduices the user to theories that try to answer the most basic questions regarding UAPs. The user gets quick access to conscice information.
+
+The sign up page changes the colour pallet to provide a little variety and off users an opportunity to sign up for a news letter.
+
 All links tested and confirmed working. Chrome develpoer tools was used to ensure the sites pages looked good on various screen sizes all teh way down to 320px wide. Numerous adjustments were made and checked repeatedly. On full size screens the landing pages content assumes and landscape orientation spread from left to right acoss the page. As the screen size gets smaller, teh page elements begin to assume a sqaure or verical layout so that all teh content can fit on screen and finally on smart phone screen sizes, the content becomes even more vertically oreinted with little or no side margins and the navigation menu becomes simpliflied.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
@@ -91,6 +99,26 @@ In this section you need to reference where you got your content, media and extr
 You can break the credits section up into Content and Media, depending on what you have included in your project.
 
 Content
+
+I used code from this youtube video >"https://www.youtube.com/watch?v=9YffrCViTVk*/. The credit for htis video goes to tipswithpunch. The code allowed me to make teh embedded youtube videos I used responsive.
+
+The background images I used come from pixabay. The landign pages image is from here >[insert link]
+teh form page image is from here [insert link]
+
+Below is a list of images I used and where to find them:
+
+Bob Lazar image which can be found here
+Luis Elizondo image which can be found here
+David Fravor image which can be found here
+Travis Walton ikage which can be found here
+
+Research on the above individuals was done on wikipedia.com and the historychannel.com, youtube videos too.
+
+The social media links are from Fontawesome.
+
+The content from the "Theroies" page come from a variety of sources over the years, youtube mostly.
+
+
 The text for the Home page was taken from Wikipedia Article A
 Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
 The icons in the footer were taken from Font Awesome
@@ -100,7 +128,15 @@ The images used for the gallery page were taken from this other open source site
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
 
 Other General Project Advice
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
+Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! Use a colour pallet to hhelp decide which colours to use. Coolor is a fantastic site that can present colour pallets from a photogrpah that you upload. I found this to be an amazing tool as I was having difficulty in chosign colors that work well together. 
+
+Allowing suffientc t=ime for your project is eesential as it is very easy to over estimate how much work you will complete in a any gievn time frame as bugs or other unexpected circuumstances can delay you leading to an insane amount of "crunch" towards the end as your deadline approaceh.
+
+Scope your project cuatiously also , as again its easy top ovrestimate how much work can be compoeted in a given timeframe.
+
+Keep your codign tidy from teh beginign an dsas you go alonm gas iot will make readign and navigating your cown code much easier and save havngit to tidy the code at the. Chose id and class names carefuilly as I pften found mysefl changign teh m later to be a better description adn tis meant having to check carefully that all rules targingt eh ids and classes were also changed accordignly. Lesson learned is to chose the name carefully from teh outsse t , so you dont have to chnage it again.
+
+Remain calm. When you get stuck and some code is not working as you expect, stay calm as getting frustrated makes it harder to find teh fix. If you get really stuck, take a break clear your head, and sometimes the solution will just piop into your head or even pop into you head after sleeping on it. If all else fails, gogle is your firend, but again, searching for answerrs is much harder when angry or frustrated, take you time and stay calm.
 
 One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through this article by Chris Beams on How to Write a Git Commit Message
 

@@ -489,6 +489,30 @@ legend {
         width: 80%;
         display: block;
     }
+
+    #picture-links-left {
+        width: 23%;
+        margin: 57.5px .5% 57.5px 2.5%;
+    }
+
+    #picture-links-right {
+        width: 23%;
+        margin: 57.5px 2.5% 57.5px .5%;
+    }
+
+    #picture-links-center-left {
+        width: 23%;
+        margin: 57.5px .5% 57.5px;
+    }
+    
+    #picture-links-center-right {
+        width: 23%;
+        margin: 57.5px .5% 57.5px;
+    }
+
+    .sub-text {
+        font-size: 10px;
+    }
 }
 
 
