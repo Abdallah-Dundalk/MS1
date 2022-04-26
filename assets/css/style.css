@@ -266,7 +266,7 @@ footer {
     height: 150px;
     position: relative;
     clear: both;
-    width: 100;
+    width: 100%;
     margin: 1px;
 }
 
@@ -634,7 +634,6 @@ legend {
         width: 50%;
         border-radius: 0;
         border: solid 1px rgb(112, 112, 112);;
-        box-sizing: none;
         height: 375px;
     }
 
@@ -643,7 +642,6 @@ legend {
         width: 50%;
         border-radius: 0;
         border: solid 1px rgb(112, 112, 112);;
-        box-sizing: none;
         height: 375px;
     }
 
