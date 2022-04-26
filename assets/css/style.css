@@ -43,27 +43,51 @@ header nav a:hover {
 /* banner */
 
 #banner {
-    clear: both;
-    height: 75px;
-    width: 100%;
+    
+    height: 55px;
+    width: 66%;
+    margin: 0 auto;
     text-align: center;
     padding: 0px;
+    border: #B9B4AF solid 1px;
+    background-color: #001f4d;
+    border-radius: 100px;
+    line-height: 55px;
+}
+
+#logo-container {
+    background-color: #B9B4AF;
+    height: 300px;
+    width:450px;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 75px;
+    border: #6E87A5 solid 2px;
 }
 
 #banner h1 {
     color: white;
-    font-size: 60px;
-    margin: 5px 0 0 0;
+    font-size: 45px;
+    margin-top: -2px;
+    margin-bottom: 1px;
+}
+
+#banner h2 {
+    color: black;
+    font-size: 15px;
+    margin: 0;
 }
 
 /* index page back-ground image */
 
 #background-image {
-    background: url(../images/blue-sky-optimised.jpg) no-repeat center top;
-    background-size: cover;
+    /* background: url(../images/blue-sky-optimised.jpg) no-repeat center top; */
+    /* background-size: cover;
     width: 100%;
     height: 600px;
-    position: relative;
+    position: relative; */
+    background-color: #001f4d;
+    height: 900px;
 }
 
 /* sign-page background image */
@@ -82,18 +106,28 @@ header nav a:hover {
 
 #intro-text {
     height: auto;
-    width: 33%;
-    backdrop-filter: blur(50px);
+    width: 450px;
+    /* backdrop-filter: blur(50px); */
     margin: 0 auto;
     margin-top: 75px;
     margin-bottom: 75px;
     padding: 5px 30px;
-    border: solid white 1px;
-    border-radius: 10px;
-    color: white;
-    background-color: rgba( 0, 0, 0, .5);
+    /* border: solid white 1px; */
+    border-radius: 2px;
+    color: black;
+    /* background-color: rgba( 0, 0, 0, .5); */
+    background-color: #B9B4AF;
     display: block;
     clear: both;
+    border: #6E87A5 solid 2px;
+    box-sizing: border-box;
+}
+
+#alien-head {
+    height: 150px;
+    width: auto;
+    padding-top: 35px;
+    color: #001f4d;
 }
 
 #intro-text div, h2 p {
@@ -112,8 +146,8 @@ header nav a:hover {
     backdrop-filter: blur(50px);
     height: 450px;
     width: 100%;
-    border-top: white solid 2px;
-    background-color: lightgray;
+    border-top: #4E7297;
+    background-color: #B9B4AF;
     box-sizing: border-box;
 }
 
