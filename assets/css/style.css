@@ -24,6 +24,7 @@ header nav {
     padding-top: 15px;
     margin: 60px 0 0 0;
     text-align: right;
+    margin-bottom: 75px;
 }
 
 header nav a {
@@ -87,7 +88,7 @@ header nav a:hover {
     height: 600px;
     position: relative; */
     background-color: #001f4d;
-    height: 900px;
+    height: 1200px;
 }
 
 /* sign-page background image */
@@ -105,7 +106,7 @@ header nav a:hover {
 /* Introduction Paragraph */
 
 #intro-text {
-    height: auto;
+    height: 475px;
     width: 450px;
     /* backdrop-filter: blur(50px); */
     margin: 0 auto;
@@ -121,6 +122,7 @@ header nav a:hover {
     clear: both;
     border: #6E87A5 solid 2px;
     box-sizing: border-box;
+    text-align: center;
 }
 
 #alien-head {
@@ -144,10 +146,10 @@ header nav a:hover {
 #picture-links{
     line-height: 0;
     backdrop-filter: blur(50px);
-    height: 450px;
+    height: 470px;
     width: 100%;
-    border-top: #4E7297;
-    background-color: #B9B4AF;
+    border-bottom: #4E7297 solid 5px;
+    background-color: #001f4d;
     box-sizing: border-box;
 }
 
@@ -245,7 +247,7 @@ a {
 .sub-text {
     height: 150px;
     width: 100%;
-    background-color: white;
+    background-color: #B9B4AF;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     margin-top: -20px;
@@ -253,7 +255,7 @@ a {
     font-size: small;
     padding: 0px 15px 0px 15px;
     box-sizing: border-box;
-    color: rgb(112, 112, 112);
+    color: black;
 }
 
 /* footer */
@@ -262,7 +264,7 @@ footer {
     bottom: 0;
     width: 100%;
     clear: both;
-    border-top: solid 2px lightgray;
+    /* border-top: #4E7297 solid 5px; */
 }
 
 .footer-links {
@@ -276,11 +278,11 @@ footer {
 }
 
 #sign-up-button a {
-    border: rgb(112, 112, 112) solid 1px;
+    border: #B9B4AF solid 1px;
     background-color: white;
     border-radius: 20px;
     width: 100px;
-    color: rgb(112, 112, 112);
+    color: #B9B4AF;
     font-family: orbitron;
     font-size: medium;
     line-height: 35px;
@@ -301,7 +303,7 @@ footer {
     position: relative;
     clear: both;
     width: 100%;
-    margin: 1px;
+    background-color: #B9B4AF;
 }
 
 #sign-up-button a:hover {
@@ -313,7 +315,7 @@ footer {
 
 
 .social-media-links {
-    color: rgb(150, 148, 148);
+    color: #B9B4AF;
     padding: 0px 30px 0px 30px;
     text-align: center;
 }
@@ -323,7 +325,7 @@ footer {
 #copyright-text {
     margin: 0 auto;
     font-size: smaller;
-    color: rgb(112, 112, 112);
+    color: #B9B4AF;
     display: block;
     line-height: 35px;
     width: 100%;
