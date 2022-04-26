@@ -148,8 +148,8 @@ header nav a:hover {
     backdrop-filter: blur(50px);
     height: 470px;
     width: 100%;
-    border-bottom: #4E7297 solid 5px;
-    background-color: #001f4d;
+    /* border-bottom: #4E7297 solid 5px; */
+    background-color: whitesmoke;
     box-sizing: border-box;
 }
 
@@ -279,10 +279,10 @@ footer {
 
 #sign-up-button a {
     border: #B9B4AF solid 1px;
-    background-color: white;
+    background-color: #B9B4AF;
     border-radius: 20px;
     width: 100px;
-    color: #B9B4AF;
+    color: white;
     font-family: orbitron;
     font-size: medium;
     line-height: 35px;
@@ -303,7 +303,7 @@ footer {
     position: relative;
     clear: both;
     width: 100%;
-    background-color: #B9B4AF;
+    background-color: #001f4d;
 }
 
 #sign-up-button a:hover {
@@ -319,6 +319,12 @@ footer {
     padding: 0px 30px 0px 30px;
     text-align: center;
 }
+
+.social-media-links:hover {
+    background-color: rgb(112, 112, 112);
+    color: white;
+    transition: all 0.3s ease-out;
+} 
 
 
 
