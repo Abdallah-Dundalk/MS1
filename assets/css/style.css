@@ -315,6 +315,10 @@ footer {
 
 /* The below code makes embedded youtube videos responsive */
 /* I got this code from here, "https://www.youtube.com/watch?v=9YffrCViTVk*/
+.iframe {
+    border: 0px;
+}
+
 .iframe-container {
     position: relative;
     width: 100%;
