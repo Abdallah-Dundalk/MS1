@@ -448,6 +448,7 @@ footer {
     clear: both;
     border-radius: 10px;
     background-color: #B9B4AF;
+    border: #6E87A5 solid 2px;
 }
 
 input {
@@ -469,7 +470,10 @@ label {
     font-size: 31px;
     margin-left:30px;
     margin-right: 5%;
-    margin-top: 28px;    
+    margin-top: 28px; 
+    background-color: #001f4d;  
+    text-align: center; 
+    border-radius: 25px;
 }
 
 #submit-button {
@@ -481,14 +485,16 @@ label {
     clear: both;
     font-family: 'orbitron';
     color: white;
-    background-color: rgba( 0, 0, 0, 0);
-    border: 1px white solid;
+    background-color: #001f4d;
+    border: 1px #6E87A5 solid;
 }
 
 #submit-button:hover {
-    color: rgb(205, 150, 0);
-    border-color: rgb(205, 150, 0);
+    color: white;
+    border-color: #001f4d;
+    color: #001f4d;
     transition: all 0.3s ease-out;
+    background-color: white;
 }
 
 input:hover {
@@ -537,7 +543,7 @@ legend {
 
     #sign-up-form-container {
         margin: 75px auto;
-        height: 600px;
+        height: 525px;
         padding: 30px;
         width: 33%;
     }
@@ -627,7 +633,6 @@ legend {
 
     #sign-up-form-container {
         width: 50%;
-        
     }
 }
 
