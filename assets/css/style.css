@@ -98,7 +98,7 @@ header nav a:hover {
     background-size: cover; */
     background-color: #001f4d;
     width: 100%;
-    height: 1200px;
+    height: 1600px;
     /* position: relative;  */
 }
 
@@ -433,7 +433,16 @@ footer {
   .bio h2 {
       margin-bottom: 0;
       margin-top: 10px;
+      margin-left: -10px;
       color: white;
+      background-color: #001f4d;
+      border-radius: 25px;
+      padding: 5px 10px;
+      font-size: larger;
+  }
+
+  .bio h3 {
+      font-size: large;
   }
 
 
@@ -458,8 +467,9 @@ input {
     width: 40%;
     font-size: 20px;
     transition: all 0.5s ease-out;
-    background-color: rgba( 0, 0, 0, 0);
-    color: white;
+    background-color: #B9B4AF;
+    color: black;
+    font-family: orbitron;
 }
 
 label {
@@ -467,7 +477,7 @@ label {
     width: 33%;
     color: white;
     font-family: orbitron;
-    font-size: 31px;
+    font-size: 24px;
     margin-left:30px;
     margin-right: 5%;
     margin-top: 28px; 
@@ -477,16 +487,16 @@ label {
 }
 
 #submit-button {
-    height: 75px;
-    width: 75px;
+    height: 110px;
+    width: 110px;
     border-radius: 50%;
     display: block;
-    margin: 37.5px auto;
+    margin: 15px auto;
     clear: both;
     font-family: 'orbitron';
     color: white;
     background-color: #001f4d;
-    border: 1px #6E87A5 solid;
+    font-size: 24px;
 }
 
 #submit-button:hover {
@@ -499,7 +509,8 @@ label {
 
 input:hover {
     transition: all 0.3s ease-out;
-    border-color: rgb(205, 150, 0);
+    border-color:#6E87A5;
+    background-color: white;
 }
 
 legend {
@@ -649,7 +660,7 @@ legend {
     }
     
     #intro-text {
-        width: 100%;
+        width: 80%;
         height: auto;
         padding: 10px;
         box-sizing: border-box;
@@ -810,11 +821,11 @@ legend {
     }
 
     #sign-up-form-container {
-        height: 525px;
+        height: 590px;
         float: none;
         margin: 75px auto;
-        box-sizing: border-box;
         width: 80%;
+        box-sizing: border-box;
     }
 
     .theories-articles {
@@ -823,7 +834,7 @@ legend {
     }
 
     #logo-container {
-        width:90%;
+        width:80%;
         height: 200px;
         padding-top: 37.5px;
     }
