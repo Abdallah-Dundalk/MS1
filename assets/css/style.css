@@ -121,7 +121,7 @@ header nav a:hover {
     height: 600px; */
     position: relative;
     background-color: #001f4d;
-    height: 1200px;
+    height: 1350px;
 }
 
 /* sign-page background image */
@@ -631,9 +631,7 @@ legend {
     padding-top: 10px;
     display: inline-block;
 }
-.reports a {
-    display: ;
-}
+
 /* media query */
 
 /* for lagre to medium screen sizes 1300px wide and down */
@@ -747,7 +745,7 @@ legend {
 /* for smaller screen sizes 660px wide and down */
 @media screen and (max-width: 660px) {
     #background-image {
-        height: 700px;
+        height: 1100px;
     }
 
     header nav {
@@ -966,6 +964,21 @@ legend {
         font-size: 7.5px;
         margin: 0;
     }
+
+    .reports-container {
+        width: 80%;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 75px;
+    }
+
+    .reports h2 {
+        font-size: small;
+    }
+    .reports {
+        font-size: 12px;
+    }
+
 }
 
 
