@@ -24,6 +24,15 @@ html {
     color: white;
 }
 
+.down-arrow:hover {
+    background-color: white;
+}
+
+.down-arrow a:hover {
+    color: #001f4d;
+    font-size: larger;
+}
+
 body {
     font-family: montserrat, sans-serif;
     position: relative;
@@ -121,7 +130,7 @@ header nav a:hover {
     height: 600px; */
     position: relative;
     background-color: #001f4d;
-    height: 1350px;
+    height: 1050px;
 }
 
 /* sign-page background image */
@@ -310,7 +319,6 @@ footer {
     width: 100%;
     text-align: center;
     padding: 16px 0 0 0;
-    
 }
 
 #sign-up-button a {
@@ -329,7 +337,6 @@ footer {
     top: 50%;
     margin-left: -66px;
     margin-top: -33.5px;
-    
 }
 
 #sign-up-button {
@@ -347,8 +354,6 @@ footer {
     color: white;
     transition: all 0.3s ease-out;
 } 
-
-
 
 .social-media-links {
     color: #001f4d;
@@ -374,44 +379,46 @@ footer {
 }
 
 /* drop down menu */
-    .dropdown {
-        position: relative;
-        display: inline-block;
-        width: 70%;
-        height: 300px;
-    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 70%;
+    height: 300px;
+}
       
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: rgba( 0, 0, 0, .9);
-        width: 100%;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        padding: 15px 16px;
-        z-index:1;
-        min-height: 100%;
-        color: white;   
-        box-sizing: border-box;  
-        margin-top: 15px; 
-        scroll-snap-align: ;
-      }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba( 0, 0, 0, .9);
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 15px 16px;
+    z-index:1;
+    min-height: 100%;
+    color: white;   
+    box-sizing: border-box;  
+    margin-top: 15px; 
+    font-size: 8px;
+    text-align: center;
+}
 
-    .dropdown-content div {
-        margin: 37.5px;
-        background-color: #001f4d;
-        border-radius: 25px;
-        font-family: orbitron;
-        text-align: center;
-        padding: 10px;
-    }
+.dropdown-content div {
+    background-color: #001f4d;
+    border-radius: 25px;
+    font-family: orbitron;
+    text-align: center;
+    padding: 10px;
+    width: 90%;
+    margin: 37.5px auto;   
+}
 
-    .dropdown-content a {
-        color: white;
-    }
+.dropdown-content a {
+    color: white;  
+}
       
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 /* Evidence Page */
 .video-container {
@@ -594,28 +601,28 @@ legend {
 /* declassified page */
 
 .reports {
-      float: right;
-      background-color: #B9B4AF;
-      width: 100%;
-      height: 100%;
-      padding-left: 15px;
-      padding-right: 15px;
-      box-sizing: border-box;
+    float: right;
+    background-color: #B9B4AF;
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
   }
 
   .reports h2 {
-      margin-bottom: 0;
-      margin-top: 10px;
-      margin-left: -10px;
-      color: white;
-      background-color: #001f4d;
-      border-radius: 25px;
-      padding: 5px 10px;
-      font-size: larger;
+    margin-bottom: 0;
+    margin-top: 10px;
+    margin-left: -10px;
+    color: white;
+    background-color: #001f4d;
+    border-radius: 25px;
+    padding: 5px 10px;
+    font-size: larger;
   }
 
   .reports h3 {
-      font-size: large;
+    font-size: large;
   }
 
   .reports-container {
@@ -639,6 +646,7 @@ legend {
     #intro-text {
         width: 66.66%;
         height: 237.5px;
+        margin-bottom: 37.5px;
     }
 
     header nav {
@@ -704,7 +712,6 @@ legend {
         height: 300px;
     }
         
-    
     #picture-links-center-right {
         clear: left;
         margin: 18.75px 3.33% 75px 6.66%;
@@ -740,18 +747,23 @@ legend {
     #sign-up-form-container {
         width: 50%;
     }
+
 }
 
 /* for smaller screen sizes 660px wide and down */
 @media screen and (max-width: 660px) {
     #background-image {
-        height: 1100px;
+        height: 900px;
     }
 
     header nav {
         margin-bottom: 15px;
         position: relative;
         z-index: 1000;
+    }
+
+    .active {
+        display: none;
     }
     
     #intro-text {
@@ -968,7 +980,7 @@ legend {
     .reports-container {
         width: 80%;
         height: 300px;
-        margin: 0 auto;
+        margin: 0 auto 75px;
         margin-top: 75px;
     }
 
