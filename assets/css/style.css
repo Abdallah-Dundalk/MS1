@@ -69,6 +69,11 @@ header nav a:hover {
     text-decoration: underline;
 }
 
+.active {
+    color: rgb(205, 150, 0);
+    text-decoration: underline;
+}
+
 /* banner */
 
 #banner {
