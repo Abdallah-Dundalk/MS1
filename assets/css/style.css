@@ -9,7 +9,6 @@ html {
 }
 
 .down-arrow {
-   
     height: 37.5px;
     width: 37.5px;
     border: solid white 1px;
@@ -60,8 +59,6 @@ header nav {
     margin-bottom: 35.75px;
     font-family: orbitron;
     color: white;
-
-    
 }
 
 header nav a {
@@ -136,12 +133,10 @@ header nav a:hover {
 /* sign-page background image */
 
 #sign-up-background-image {
-    /* background: url(../images/sun-set-optimised.jpg) no-repeat center top;
-    background-size: cover; */
     background-color: #001f4d;
     width: 100%;
     height: 1600px;
-    /* position: relative;  */
+
 }
 
 
@@ -151,15 +146,12 @@ header nav a:hover {
 #intro-text {
     height: 237.5px;
     width: 66%;
-    /* backdrop-filter: blur(50px); */
     margin: 0 auto;
     margin-top: 75px;
     margin-bottom: 75px;
     padding: 5px 30px;
-    /* border: solid white 1px; */
     border-radius: 2px;
     color: black;
-    /* background-color: rgba( 0, 0, 0, .5); */
     background-color: #B9B4AF;
     display: block;
     clear: both;
@@ -167,7 +159,6 @@ header nav a:hover {
     box-sizing: border-box;
     text-align: center;
     position: relative;
-    z-index: index 0;
 }
 
 #alien-head {
@@ -193,7 +184,6 @@ header nav a:hover {
     backdrop-filter: blur(50px);
     height: 470px;
     width: 100%;
-    /* border-bottom: #4E7297 solid 5px; */
     background-color: whitesmoke;
     box-sizing: border-box;
 }
@@ -309,7 +299,6 @@ footer {
     bottom: 0;
     width: 100%;
     clear: both;
-    /* border-top: #4E7297 solid 5px; */
 }
 
 .footer-links {
@@ -790,12 +779,6 @@ legend {
     .larger-screen-menu {
         display: none;
     }
-    
-    /* #drop-down-menu-content:hover {
-        background-color: green;
-        height: 150px;
-        width: 100%;
-    } */
 
     #picture-links-center-right {
         clear: left;
@@ -832,7 +815,6 @@ legend {
         height: 375px;
     }
 
-    
     #picture-links {
         height: 750px;
     }
@@ -993,13 +975,10 @@ legend {
 
 }
 
-
-
 /* for smaller screen sizes 660px wide and up */
 @media  screen and (min-width: 660px) {
     .dropdown {
         display: none;
     }
-
 }
 
