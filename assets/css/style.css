@@ -8,6 +8,7 @@ html {
     scroll-margin-top: -85px;
 }
 
+/* down arrow link */
 .down-arrow {
     height: 37.5px;
     width: 37.5px;
@@ -80,8 +81,7 @@ header nav a:hover {
     text-decoration: underline;
 }
 
-/* banner */
-
+/* logo heading */
 #banner {
     
     height: 55px;
@@ -118,7 +118,7 @@ header nav a:hover {
     margin: 0;
 }
 
-/* index page back-ground image */
+/* Was a background image originally, but now is just a plain blue background*/
 
 #background-image {
     position: relative;
@@ -126,7 +126,7 @@ header nav a:hover {
     height: 1050px;
 }
 
-/* sign-page background image */
+/* was originally a sign-page background image but is now a plain background colour*/
 
 #sign-up-background-image {
     background-color: #001f4d;
@@ -155,6 +155,7 @@ header nav a:hover {
     position: relative;
 }
 
+/* alien head logo image */
 #alien-head {
     height: 150px;
     width: auto;
@@ -166,7 +167,7 @@ header nav a:hover {
     color: white;
 }
 
-/* picture links */
+/* picture navigation links on home page */
 
 #picture-links div {
     float: left;
@@ -273,6 +274,7 @@ a {
     background-color: rgba( 0, 0, 0, .7);
 }
 
+/* text field underneath the picture navigation links on home page */
 .sub-text {
     height: 150px;
     width: 100%;
@@ -295,6 +297,7 @@ footer {
     clear: both;
 }
 
+/* container for social media links */
 .footer-links {
     font-size: 33.5px;
     background-color: white;
@@ -304,6 +307,7 @@ footer {
     padding: 16px 0 0 0;
 }
 
+/* sign up button code */
 #sign-up-button a {
     border: #B9B4AF solid 1px;
     background-color: #B9B4AF;
@@ -338,6 +342,7 @@ footer {
     transition: all 0.3s ease-out;
 } 
 
+/* social media links */
 .social-media-links {
     color: #001f4d;
     padding: 0px 30px 0px 30px;
@@ -350,6 +355,7 @@ footer {
     transition: all 0.3s ease-out;
 } 
 
+/* copyright text in footer */
 #copyright-text {
     margin: 0 auto;
     font-size: smaller;
@@ -362,7 +368,7 @@ footer {
 }
 
 /* drop down menu */
-/* this code is attributed to https://www.w3schools.com/css/css_dropdowns.asp */
+/* this code is attributed to https://www.w3schools.com/css/css_dropdowns.asp and has been modified to suit*/
 .dropdown {
     position: relative;
     display: inline-block;
@@ -405,6 +411,8 @@ footer {
 }
 
 /* Evidence Page */
+
+/* container for youtube embedded videos */
 .video-container {
     line-height: 0;
     backdrop-filter: blur(10px);
@@ -447,7 +455,7 @@ footer {
 
   /* Insiders page */
 
-  /* profile div */
+  /* container for profile picture and biography text */
 
   .profile {
       width: 600px;
@@ -464,6 +472,7 @@ footer {
       margin-top: -30px;
   }
 
+  /* biography text field */
   .bio {
       float: right;
       background-color: #B9B4AF;
@@ -563,6 +572,8 @@ legend {
 }
 
 /* Theories page */
+
+/* container for article on Theories page */
 .theories-articles {
     line-height: 28px;
     height: auto;
@@ -584,6 +595,7 @@ legend {
 
 /* declassified page */
 
+/* container for external links */
 .reports {
     float: right;
     background-color: #B9B4AF;
@@ -764,6 +776,7 @@ legend {
 
     header nav {
         margin-bottom: 15px;
+        margin-top: 15px;
         position: relative;
         z-index: 1000;
     }
@@ -782,7 +795,7 @@ legend {
         border-right: none;
         clear: both;
         margin-bottom: 15px;
-        margin-top: 37.5px;
+        margin-top: 15px;
     } 
 
     #intro-text h2 {
@@ -795,12 +808,12 @@ legend {
 
     #logo-container {
         width:80%;
-        height: 175px;
-        padding-top: 37.5px;
+        height: 150px;
+        padding-top: 10px;
     }
 
     #alien-head {
-        width: 90px;
+        width: 66px;
         height: auto;
         padding-top: 17.5px;
     }
