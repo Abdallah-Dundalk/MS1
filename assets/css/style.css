@@ -54,7 +54,7 @@ header nav {
     height: 32.5px;
     float: right;
     padding-top: 15px;
-    margin: 30px 0 0 0;
+    margin: 30px 0 15px 0;
     text-align: right;
     margin-bottom: 35.75px;
     font-family: orbitron;
@@ -101,7 +101,7 @@ header nav a:hover {
     width:450px;
     margin: 0 auto;
     clear: both;
-    padding-top: 75px;
+    padding-top: 37.5px;
     border: #6E87A5 solid 2px;
 }
 
@@ -138,10 +138,10 @@ header nav a:hover {
 /* Introduction Paragraph */
 
 #intro-text {
-    height: 237.5px;
+    height: auto;
     width: 66%;
     margin: 0 auto;
-    margin-top: 75px;
+    margin-top: 37.5px;
     margin-bottom: 37.5px;
     padding: 5px 30px;
     border-radius: 2px;
@@ -629,8 +629,8 @@ legend {
 @media screen and (max-width: 1300px) {
     #intro-text {
         width: 66.66%;
-        height: 237.5px;
-        margin-bottom: 37.5px;
+        height: 200px;
+        margin-bottom: 7.5px;
     }
 
     header nav {
@@ -692,8 +692,29 @@ legend {
 /* for small screen sizes 950px wide and down */
 @media screen and (max-width: 950px) {
     #intro-text {
-        width: 66.66%;
-        height: 300px;
+        width: 70%;
+        height: auto;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+        clear: both;
+        margin-bottom: 1px;
+        margin-top: 37.5px;
+    } 
+
+    #intro-text h2 {
+        font-size: 20px;
+    }
+
+    #intro-text p {
+        font-size: 16px;
+    }
+
+    #logo-container {
+        height: 275px;
+        padding-top: 37.5px;
     }
         
     #picture-links-center-right {
@@ -760,7 +781,7 @@ legend {
         border-left: none;
         border-right: none;
         clear: both;
-        margin-bottom: 1px;
+        margin-bottom: 15px;
         margin-top: 37.5px;
     } 
 
