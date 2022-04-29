@@ -362,6 +362,7 @@ footer {
 }
 
 /* drop down menu */
+/* this code is attributed to https://www.w3schools.com/css/css_dropdowns.asp */
 .dropdown {
     position: relative;
     display: inline-block;
