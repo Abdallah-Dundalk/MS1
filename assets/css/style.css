@@ -5,7 +5,7 @@ html {
 }
 
 #picture-links{
-    scroll-margin-top: -85px;
+    scroll-margin-top: -45px;
 }
 
 /* down arrow link */
@@ -323,7 +323,7 @@ footer {
     position: absolute;
     left: 50%;
     top: 50%;
-    margin-left: -66px;
+    margin-left: -58.5px;
     margin-top: -33.5px;
 }
 
