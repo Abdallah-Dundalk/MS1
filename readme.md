@@ -6,7 +6,7 @@ With so many dubious information online relating to UAPs, this website is intend
 Also, given the renewed interest in the subject of UAPs, this product has been developed at the right time and the hope is as the interest grows and more information is declassified, this site will be already somewhat established and hopefully become one of the more popular UAP websites.
 
 
-![UAP Intel responsive mock up](./assets/images/screens.jpg)
+![UAP Intel responsive mock up](./assets/images/screens.png)
 
 ## Features:
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
