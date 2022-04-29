@@ -103,7 +103,9 @@ You can visit the site here - https://abdallah-dundalk.github.io/MS1/
 
 - www.w3schools.com was used to help with developing the drop down menu.
 
-- Stackoverflow was used to help with developign smooth scrolling link.
+- Stackoverflow was used to help with developing smooth scrolling link.
+
+- Code Institue README template was used for this REAME file.
 
 - The social media links are from Fontawesome.
 
@@ -122,7 +124,8 @@ You can visit the site here - https://abdallah-dundalk.github.io/MS1/
 - All other information provided on the site was researched on from history.com youtube.com and space.com.
 
 ### Acknowledgements
--  Many thanks to Gurjot Singh for helping me by providing me with ideas, and espacially for making himself available at short notice and taking plenty of time to go through different aspects of the project. 
+-  Many thanks to Gurjot Singh for helping me by providing me with ideas, and espacially for making himself available at short notice and taking plenty of time to go through different aspects of the project.
+ - Many thanks to the entire Code Institute Team for all their help!
 
 
  
