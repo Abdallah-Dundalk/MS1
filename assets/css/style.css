@@ -808,14 +808,14 @@ legend {
 
     #logo-container {
         width:80%;
-        height: 150px;
+        height: 125px;
         padding-top: 10px;
     }
 
     #alien-head {
-        width: 66px;
+        width: 60px;
         height: auto;
-        padding-top: 17.5px;
+        padding-top: 8px;
     }
 
     .larger-screen-menu {
