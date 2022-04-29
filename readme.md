@@ -34,7 +34,7 @@ The footer section contians links to social media to allow the user to consume c
 ## Evidence:
 Most UAP entusiasts are looking for proof of their existence in the form of videos or photographs, hence the first link made available to the user is the evidence page where the most recently released or declassified UAP videos can be found, allowing the user to dive right in.
 
-![UAP Intel footer](./assets/images/evidence.jpg)
+![UAP Intel evidence](./assets/images/evidence.jpg)
 
 ## Insiders:
 Insiders page is offered up next, providing the user with some of the most credible and fascinating sources of imformation on the UAP subject. The purpose of this page is to introduce the user to icons of the UAP subject, pointing the user in the right direction to find information from credible sources.
