@@ -111,10 +111,18 @@ You can visit the site here - https://abdallah-dundalk.github.io/MS1/
 
 ### Images:
 
-- Bob Lazar image was from IMDB.com
+- Bob Lazar images were from IMDB.com and wikipedia.com
 - Luis Elizondo image was from popularmechanics.com
 - David Fravor image was from IMDB.com
 - Travis Walton image was from pressherald.com
+- Gimbal/ Evidence image was from www.navair.navy.mil/foia/documents
+- Alien head vector image was from www.clipartmax.com/download/m2i8b1A0i8G6Z5N4_alien-head-vector-alien-svg/
+- Planet/Theories image was from Pixabay.com
+- Top secret folder/ reports image was from www.asd.gov.au/about/history/declassified
+- Sunset image (unused) was from www.wallpaperflare.com/yellow-sun-sky-sunset-clouds-sunlight-landscape-scenics-nature-wallpaper-sdsh/download/5120x2880
+- UFO background image (unused) was from pixabay.com/photos/ufo-children-alien-heaven-eve-3014638/
+- Blue sky image (unused) was from https://pixabay.com/nl/photos/wolken-cumulus-lucht-natuur-2329680/
+
 - Research on the above individuals was done on wikipedia.com and the historychannel.com, and youtube.com.
 
 ### Videos:
